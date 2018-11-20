@@ -11,8 +11,11 @@ package aiz.graph;
  */
 public class TGraph extends MGraph {
 
+
+
     public TGraph(int k) {
         super(k);
+
     }
 
     @Override
@@ -39,5 +42,6 @@ public class TGraph extends MGraph {
             
         }
     }
+
     
 }

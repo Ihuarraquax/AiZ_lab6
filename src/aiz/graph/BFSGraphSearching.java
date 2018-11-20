@@ -11,9 +11,9 @@ import java.util.*;
  *
  * @author Admin
  */
-public class BFSGraph extends TGraph implements IBfsSearchable {
+public class BFSGraphSearching extends TGraph implements IBfsSearchable {
 
-    public BFSGraph(int k) {
+    public BFSGraphSearching(int k) {
         super(k);
     }
 

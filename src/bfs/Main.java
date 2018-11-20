@@ -5,10 +5,9 @@
  */
 package bfs;
 
-import aiz.graph.BFSGraph;
-import aiz.graph.BFSGraph2;
-import aiz.graph.BFSGraph3;
-import aiz.graph.TGraph;
+import aiz.graph.BFSGraphWithDistance;
+import aiz.graph.BFSGraphWithTracking;
+import aiz.graph.DFSSSS;
 
 /**
  *
@@ -20,7 +19,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        BFSGraph3 graf = new BFSGraph3(8);
+        DFSSSS graf = new DFSSSS(8);
         
         graf.addEdge(0, 1);
         graf.addEdge(0, 2);
@@ -40,7 +39,7 @@ public class Main {
         System.out.println(graf.getEdgeCount());
         graf.writeMatrix();
         
-        graf.bfs(3,7);
+        graf.dfs(0);
     }
     
 }
