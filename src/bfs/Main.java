@@ -38,8 +38,8 @@ public class Main {
         
         System.out.println(graf.getEdgeCount());
         graf.writeMatrix();
-        
-        graf.dfs(0);
+
+        graf.sSS();
     }
     
 }

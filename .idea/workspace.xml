@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7ba72d4-d16a-4463-87f3-621c5c95df5c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Hubii.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aiz/graph/DFSSSS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aiz/graph/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BFS/aiz/graph/BFSGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BFS/aiz/graph/BFSGraph2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BFS/aiz/graph/BFSGraph3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BFS/aiz/graph/TGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BFS/aiz/graph/TGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BFS/bfs/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BFS/bfs/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aiz/graph/BFSGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiz/graph/BFSGraphSearching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aiz/graph/BFSGraph2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiz/graph/BFSGraphWithDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aiz/graph/BFSGraph3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiz/graph/BFSGraphWithTracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aiz/graph/TGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiz/graph/TGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aiz/graph/DFSSSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aiz/graph/DFSSSS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bfs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bfs/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,13 +34,19 @@
           <file leaf-file-name="DFSSSS.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/aiz/graph/DFSSSS.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="419">
-                  <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+                <state relative-caret-position="454">
+                  <caret line="43" column="48" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#374#375#0" expanded="true" />
                     <element signature="e#398#399#0" expanded="true" />
+                    <element signature="method#dfs#1;class#DFSSSS#0" />
+                    <element signature="method#wypełnijDomyslneWartosci#0;class#DF#0" />
+                    <element signature="method#wypiszTrase#0;class#DFSSSS#0" />
                     <element signature="method#wypiszOdleglosci#0;class#BFSGraphWithTracking#0" />
+                    <element signature="method#wypiszCzasy#0;class#DFSSSS#0" />
+                    <element signature="method#transponuj#0;class#DFSSSS#0" />
+                    <element signature="class#OutTimerComparator#0;class#DFSSSS#0" />
                   </folding>
                 </state>
               </provider>
@@ -79,8 +72,8 @@
           <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/bfs/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="579">
-                  <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+                <state relative-caret-position="563">
+                  <caret line="40" selection-start-line="40" selection-end-line="40" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -282,12 +275,12 @@
       <workItem from="1542211023563" duration="4730000" />
       <workItem from="1542462716694" duration="211000" />
       <workItem from="1542721093536" duration="599000" />
-      <workItem from="1542730210734" duration="4782000" />
+      <workItem from="1542730210734" duration="7548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10377000" />
+    <option name="totallyTimeSpent" value="13143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -499,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bfs/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        <state relative-caret-position="563">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -509,13 +502,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aiz/graph/DFSSSS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        <state relative-caret-position="454">
+          <caret line="43" column="48" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#374#375#0" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
+            <element signature="method#dfs#1;class#DFSSSS#0" />
+            <element signature="method#wypełnijDomyslneWartosci#0;class#DF#0" />
+            <element signature="method#wypiszTrase#0;class#DFSSSS#0" />
             <element signature="method#wypiszOdleglosci#0;class#BFSGraphWithTracking#0" />
+            <element signature="method#wypiszCzasy#0;class#DFSSSS#0" />
+            <element signature="method#transponuj#0;class#DFSSSS#0" />
+            <element signature="class#OutTimerComparator#0;class#DFSSSS#0" />
           </folding>
         </state>
       </provider>
